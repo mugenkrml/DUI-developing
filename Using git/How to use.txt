@@ -1,0 +1,88 @@
+cd DUI-developing
+→そのディレクトリに移動
+
+code .
+→ターミナル(MAC)からVScodeで対応するリポジトリ　ディレクトリを開く
+
+リポジトリの初期化
+git init
+
+リポジトリをクローン
+git clone <repository_url>
+
+現在の状態を確認
+git status
+
+変更をステージング（add）
+　（ファイルの変更をステージングエリアに追加する）
+git add <file_name>
+
+(すべての変更を追加する場合)
+git add .
+
+コミット（commit）変更をローカルリポジトリに保存する
+git commit -m "コミットメッセージ"
+
+リモートリポジトリに変更を反映（push）
+git push origin main
+
+リモートリポジトリから最新の変更を取得（pull）
+git pull origin main
+
+履歴の確認（log）
+git log
+
+リモートリポジトリの確認（remote）
+git remote -v
+
+特定のコミットにチェックアウト（checkout）
+git checkout <commit_id>
+
+作業ツリーを変更する（reset）
+git reset
+
+ブランチの確認（branch）
+git branch
+
+新しいブランチを作成して切り替え
+git checkout -b <branch_name>
+
+ブランチを削除
+git branch -d <branch_name>
+
+リモートブランチを削除
+git push origin --delete <branch_name>
+
+
+
+Git Hub内
+
+GitHubで新しいリポジトリを作成
+　GitHubのWebサイトにアクセスし、リポジトリを作成します。
+
+リモートリポジトリの追加
+　ローカルリポジトリにGitHubのリモートリポジトリを設定
+　　git remote add origin <repository_url>
+
+
+リモートリポジトリに初回のプッシュ
+　初めてリモートにプッシュする場合、次のようにします。
+　　git push -u origin main
+
+変更をプルリクエストで共有
+　GitHubのリポジトリページで新しいプルリクエストを作成し、他のメンバーとコードの変更を共有します。
+
+
+その他の便利コマンド
+
+変更を一時的に保存（stash）
+　作業中の変更を一時的に保存し、後で取り出す
+　　git stash
+
+保存された変更を復元（stash pop）
+　保存した変更を取り出して再適用する
+　　git stash pop
+
+変更内容を確認（diff）
+　どのような変更があったのかを確認する
+　　git diff
