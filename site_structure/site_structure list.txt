@@ -6,6 +6,7 @@ DUI developing/
   │  └──site_structure list.txt (this page)
   ├── docs/
   │   └──資料1.md 
+  │   └──資料2.md 
   ├── notes/
   │   ├──メモ(only mugen).txt
   │   └──メモ(only Urata).txt
