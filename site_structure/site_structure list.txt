@@ -1,11 +1,16 @@
 DUI developing/
-  ├── index.html
-  ├── login.html
-  ├── site_structure.md
+  ├── html/
+  │  ├──index.html
+  │  └──login.html
+  ├── site_structure
+  │  └──site_structure list.txt (this page)
   ├── docs/
-  │   ├──資料1.md
-  │   └──資料2.md
+  │   └──資料1.md 
   ├── notes/
-  │   ├──メモ1.txt
-  │   └──メモ2.txt
+  │   ├──メモ(only mugen).txt
+  │   └──メモ(only Urata).txt
+  ├──Using git/
+  │   └──How to use.txt
+  ├── contents/
+  │   └──素材置き場.md 
   └── README.md
