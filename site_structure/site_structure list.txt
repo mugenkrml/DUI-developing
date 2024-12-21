@@ -2,7 +2,7 @@ DUI developing/
   ├── html/
   │  ├──index.html
   │  └──login.html
-  ├── site_structure
+  ├── site_structure/
   │  └──site_structure list.txt (this page)
   ├── docs/
   │   └──資料1.md 
