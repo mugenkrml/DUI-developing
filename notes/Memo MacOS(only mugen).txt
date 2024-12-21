@@ -44,5 +44,5 @@
 
 
 git add .
-git commit -m "変更内容をここに記載"
+git commit -m "no comments"
 git push origin main
