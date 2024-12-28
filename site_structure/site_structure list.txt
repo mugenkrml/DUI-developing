@@ -2,6 +2,8 @@ DUI developing/
   ├── html/
   │  ├──index.html
   │  └──login.html
+  ├── images/
+  │  └──Stick some images here
   ├── site_structure/
   │  └──site_structure list.txt (this page)
   ├── docs/
